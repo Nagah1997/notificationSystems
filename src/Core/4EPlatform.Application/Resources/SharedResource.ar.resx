@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddedSuccessfully" xml:space="preserve">
+    <value>تم  الحفظ بنجاح</value>
+  </data>
+  <data name="AddedSuccessfully1" xml:space="preserve">
+    <value>تم  الحفظ بنجاح</value>
+  </data>
+  <data name="Agenda start time must equal the meeting start time if it's the first agenda, or one minute after the previous agenda's end time. Agenda end time must not exceed the meeting end time." xml:space="preserve">
+    <value>وقت بداية البند يجب أن يساوي وقت بداية الاجتماع إذا كان أول بند، أو يلي نهاية البند السابق بدقيقة واحدة. كما يجب ألا يتجاوز وقت نهاية البند وقت نهاية الاجتماع</value>
+  </data>
+  <data name="AnErrorOccurredPleaseContactSystemAdministrator" xml:space="preserve">
+    <value>هناك خطا يجب التواصل مع الادمن</value>
+  </data>
+  <data name="CannotEditName" xml:space="preserve">
+    <value>لا يمكن تعديل الاسم</value>
+  </data>
+  <data name="DeletedSuccessfully" xml:space="preserve">
+    <value>تم الحذف بنجاح</value>
+  </data>
+  <data name="DescriptionRequired" xml:space="preserve">
+    <value>الوصف مطلوب </value>
+  </data>
+  <data name="EmailRequired" xml:space="preserve">
+    <value>يجب ادخال الايميل</value>
+  </data>
+  <data name="Invalid agenda time" xml:space="preserve">
+    <value>وقت الاجندة غير صحيح</value>
+  </data>
+  <data name="It is not possible for the repetition to be monthly and the day to be the 31st" xml:space="preserve">
+    <value>لا يمكن أن يكون التكرار شهريا واليوم هو 31</value>
+  </data>
+  <data name="LK_RepetitionDurationId required for Repetition" xml:space="preserve">
+    <value>اختيار المدة مطلوب للتكرار</value>
+  </data>
+  <data name="MeetingHasNotStarted" xml:space="preserve">
+    <value>الاجتماع لم يبدا بعد</value>
+  </data>
+  <data name="MeetingRoomId required for onSite meet" xml:space="preserve">
+    <value> غرفة الاجتماعات مطلوب للاجتماع الحضوري</value>
+  </data>
+  <data name="meetingstartedOrFinshied" xml:space="preserve">
+    <value>تم بدا الاجتماع بالفعل او انتهى </value>
+  </data>
+  <data name="MeetLink required for online meet" xml:space="preserve">
+    <value>رابط الاجتماع مطلوب للاجتماع عن بعد</value>
+  </data>
+  <data name="MemberIsExist" xml:space="preserve">
+    <value>العضو موجود من قبل</value>
+  </data>
+  <data name="Name in Arabic is required." xml:space="preserve">
+    <value>الاسم باللغة العربية مطلوب.</value>
+  </data>
+  <data name="Name in Arabic must be written in Arabic." xml:space="preserve">
+    <value>الاسم باللغة العربية يجب أن يكتب باللغة العربية.</value>
+  </data>
+  <data name="Name in English is required." xml:space="preserve">
+    <value>الاسم باللغة الإنجليزية مطلوب.</value>
+  </data>
+  <data name="Name in English must be written in English." xml:space="preserve">
+    <value>الاسم باللغة الإنجليزية يجب أن يكتب باللغة الإنجليزية.</value>
+  </data>
+  <data name="NameRequired" xml:space="preserve">
+    <value>يجب ادخال الاسم</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>لا توجد بيانات</value>
+  </data>
+  <data name="PageSizeRequired" xml:space="preserve">
+    <value>يجب ادخال عدد عناصر الصفحة الواحدة </value>
+  </data>
+  <data name="PageIndexRequired" xml:space="preserve">
+    <value>يجب ادخال عدد الصفحات </value>
+  </data>
+  <data name="PhoneNumberRequired" xml:space="preserve">
+    <value>يجب ادخال رقم الجوال</value>
+  </data>
+  <data name="RetrievedSuccessfully" xml:space="preserve">
+    <value>تم الارجاع بنجاح</value>
+  </data>
+  <data name="The agenda cannot be Repeated without the repetition of the meeting." xml:space="preserve">
+    <value>لا يمكن تكرار الاجندة مع عدم التكرار للاجتماع</value>
+  </data>
+  <data name="The combination of NameAr and NameEn must be unique." xml:space="preserve">
+    <value>يجب أن يكون الجمع بين الاسم باللغة العربية والاسم باللغة الإنجليزية فريدًا.</value>
+  </data>
+  <data name="The FromTime for first agenda must Equal Meet StartTime and its ToTime must Equal Meeting EndTime" xml:space="preserve">
+    <value>يجب أن يكون وقت البدء لجدول الأعمال الأول مساويًا لوقت بدء الاجتماع ويجب أن يكون وقت الوصول مساويًا لوقت انتهاء الاجتماع</value>
+  </data>
+  <data name="the Integration type is linked with meeting" xml:space="preserve">
+    <value>نوع الارتبط مرتبط باجتماع</value>
+  </data>
+  <data name="The meeting date cannot be before today's date." xml:space="preserve">
+    <value>تاريخ الاجتماع لا يمكن ان يكون قبل تاريخ اليوم</value>
+  </data>
+  <data name="The startTime for each agenda must be after the previous EndTime with Minute, The start time for each agenda must be before End time" xml:space="preserve">
+    <value>يجب أن يكون وقت البدء لكل جدول أعمال بعد وقت الانتهاء السابق بالدقيقة، ويجب أن يكون وقت البدء لكل جدول أعمال قبل وقت الانتهاء</value>
+  </data>
+  <data name="There is already a meeting scheduled in this room at the same time." xml:space="preserve">
+    <value>هناك اجتماع مقرر بالفعل في هذه الغرفة في نفس الوقت.</value>
+  </data>
+  <data name="Total agenda time less than for meeting duration" xml:space="preserve">
+    <value>إجمالي وقت جدول الأعمال أقل من مدة الاجتماع</value>
+  </data>
+  <data name="UpdateSuccessfully" xml:space="preserve">
+    <value>تم التعديل بنجاح</value>
+  </data>
+  <data name="YouAreNotTheCreatorOfThisTaskResult" xml:space="preserve">
+    <value>انت لست من قام بعمل النتيجة </value>
+  </data>
+  <data name="YouCannotTerminateOrReferThisTask" xml:space="preserve">
+    <value>لا يمكنك الاحالة لهذة المهمة</value>
+  </data>
+  <data name="TerminateOrReferThisTask" xml:space="preserve">
+    <value>تمت والاحالة التمرير  </value>
+  </data>
+  <data name="TaskIdRequired" xml:space="preserve">
+    <value>رقم id الخاص بالمهمة مطلوب</value>
+  </data>
+  <data name="TaskWithThisIdArcheved" xml:space="preserve">
+    <value>المهمة مورشفة</value>
+  </data>
+  <data name="TaskResultIdRequired" xml:space="preserve">
+    <value>رقم id الخاص بالنتيجة مطلوب</value>
+  </data>
+  <data name="TaskAssignmentIDRequired" xml:space="preserve">
+    <value>يجب ادخال id المسند اليه</value>
+  </data>
+  <data name="Tasknotfound" xml:space="preserve">
+    <value>لا يوجد مهمة بid </value>
+  </data>
+  <data name="EndTimemustbegreaterthanStartTime" xml:space="preserve">
+    <value>يجب أن يكون وقت النهاية أكبر من وقت البدء</value>
+  </data>
+  <data name="Repetition End Date must be after Meeting Date " xml:space="preserve">
+    <value>تاريخ التكرار يجب أن يكون بعد تاريخ الاجتماع</value>
+  </data>
+  <data name="MeetingStillInprogress" xml:space="preserve">
+    <value>الاجتماع ما زال تحت المعالجة</value>
+  </data>
+  <data name="YouAreNotAssignedToThisTask" xml:space="preserve">
+    <value>لم يتم الاسناد اليك في هذة المهمة </value>
+  </data>
+  <data name="ScriptNotAllowed" xml:space="preserve">
+    <value> المدخل يحتوي على كود خطير</value>
+  </data>
+  <data name="HtmlNotAllowed" xml:space="preserve">
+    <value>غير مسموح بإدخال HTML</value>
+  </data>
+  <data name="InvalidLeadingCharacters" xml:space="preserve">
+    <value>المدخل يحتوي على حروف غير مسموح بها في البداية </value>
+  </data>
+  <data name="WeightMustBeGreaterThanZero" xml:space="preserve">
+    <value>وزن المهمة يجب أن يكون أكبر من صفر</value>
+  </data>
+  <data name="DueDateIsRequired" xml:space="preserve">
+    <value>يجب ادخال التاريخ </value>
+  </data>
+  <data name="TimeIsRequired" xml:space="preserve">
+    <value>يجب ادخال الوقت </value>
+  </data>
+  <data name="WeightIsRequired" xml:space="preserve">
+    <value>وزن المهة مطلوب</value>
+  </data>
+  <data name="OrganizationIsRequired" xml:space="preserve">
+    <value>ادارة المهمة مطلوبه</value>
+  </data>
+  <data name="AssignmentsIsRequired" xml:space="preserve">
+    <value>مالك المهمة مطلوب</value>
+  </data>
+  <data name="UserNotAssignToThisTask" xml:space="preserve">
+    <value>هذا المستخدم لم تسند اليه هذه المهمه</value>
+  </data>
+  <data name="UserNotInProgressToThisTaskNow" xml:space="preserve">
+    <value>هذا المستخدم لم يعد يعمل على هذه المهمة</value>
+  </data>
+  <data name="UsersInProgressOrCompletedThisTask" xml:space="preserve">
+    <value>هؤلاء المستخدمين مسندون بالفعل او كانوا على هذه المهمة</value>
+  </data>
+  <data name="CanNotReplaceTaskIsArchived" xml:space="preserve">
+    <value>لايمكن الاستبدال ,هذه المهمة مؤرشفة </value>
+  </data>
+  <data name="CanNotReplaceTaskIsUnderReview" xml:space="preserve">
+    <value>لايمكن الاستبدال ,هذه المهمة قيد المراجعة</value>
+  </data>
+  <data name="CanNotAssignTaskIsArchived" xml:space="preserve">
+    <value>لا يمكن الاسناد هذه المهمة  مؤرشفة</value>
+  </data>
+  <data name="CancelSuccessfully" xml:space="preserve">
+    <value>تم الالغاء بنجاح</value>
+  </data>
+</root>

@@ -1,0 +1,22 @@
+	syntax = "proto3";
+
+option csharp_namespace = "ControlPanel.Notifications.Protos";
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+service notifiactionService {
+
+  rpc sendConfirmation (RequestConfirmationMessage) returns (ResponseConfirmationMessage);
+}
+
+  message RequestConfirmationMessage {
+	string subject = 1;
+	string body = 2;
+	string Email = 3;
+  }
+  message ResponseConfirmationMessage {
+
+	string ConfirmationMessage = 1;
+  }
+  
+  

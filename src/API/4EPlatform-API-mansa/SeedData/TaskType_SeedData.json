@@ -1,0 +1,31 @@
+﻿[
+  {
+    "Id": "2fd11f70-a13b-4a20-9e9f-10ab4d852570",
+    "NameAr": "إدارية",
+    "NameEn": "Administrative",
+    "IsSeed": true,
+    "Invocation": false
+  },
+  {
+    "Id": "823513a0-9f39-40f4-a3a6-e7c3cd92e302",
+    "NameAr": "مالية",
+    "NameEn": "Financial",
+    "IsSeed": true,
+    "Invocation": false
+  },
+
+  {
+    "Id": "eabb628a-6c25-4227-8bab-144fb3a75286",
+    "NameAr": "تجارية",
+    "NameEn": "Commercial",
+    "IsSeed": true,
+    "Invocation": false
+  },
+  {
+    "Id": "b3c8c9d2-1c6a-4c0a-9b6a-5c6b8f4a9d11",
+    "NameAr": "استدعاء",
+    "NameEn": "Invocation",
+    "IsSeed": true,
+    "IsInvocation": true
+  }
+]

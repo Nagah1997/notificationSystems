@@ -1,0 +1,6 @@
+@_4EPlatform_API_mansa_HostAddress = http://localhost:5044
+
+GET {{_4EPlatform_API_mansa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

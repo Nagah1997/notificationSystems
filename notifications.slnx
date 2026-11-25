@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/API/">
+    <Project Path="src/API/4EPlatform-API-mansa/4EPlatform-API-notifications.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/4EPlatform.Application/4EPlatform.Application.csproj" />
+    <Project Path="src/Core/4EPlatform.Domain/4EPlatform.Domain.csproj" />
+    <Project Path="src/Core/4EPlatForm.Infrastrucure/4EPlatForm.Infrastrucure.csproj" />
+  </Folder>
+</Solution>
